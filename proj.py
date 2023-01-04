@@ -1,4 +1,12 @@
-def y(x):
-	return x**2;
+from tkinter import *
+from forroot import root
+from screen import *
 
-print(y(2));
+root.title('Mamka')
+root.geometry(f"{width}x{height}+{center_x}+{center_y}")
+root.resizable(False, False)
+
+message = Label(root, text = 'aboba')
+message.pack();
+
+root.mainloop();
