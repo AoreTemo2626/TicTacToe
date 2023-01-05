@@ -1,10 +1,9 @@
-from tkinter import *
 from forroot import root
 from screen import *
 
 root.title('Mamka')
 root.geometry(f"{width}x{height}+{center_x}+{center_y}")
-root.resizable(False, False)
+root.resizable(False,False)
 
 message = Label(root, text = 'aboba')
 message.pack();
