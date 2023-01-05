@@ -1,4 +1,3 @@
-from forroot import root
 from screen import *
 
 root.title('Mamka')
