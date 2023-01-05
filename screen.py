@@ -1,6 +1,4 @@
-from tkinter import *
-from forroot import root
-
+from forroot import *
 width = 600;
 height = 500;
 
